@@ -15,6 +15,10 @@
   </head>
   <body>
     <main class="main-container">
+      <div class="overley"></div>
+      <div class="mobile-icon">
+        <i class="fa-solid fa-bars"></i>
+      </div>
       <!-- asideBar -->
       <aside class="aside-container">
         <!-- asidebar header -->
@@ -26,18 +30,60 @@
           <div class="search">
             <i class="fa-solid fa-chevron-left"></i>
             <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-xmark"></i>
           </div>
         </header>
         <!-- asidebar section -->
         <section class="aside-section">
-          <details class="detail-of-user">
+          <div class="detail-of-user">
             <figure>
-              <img src="" alt="img" />
-              <span>gowtham</span>
+              <img src="/assets/Gowtham image.jpg" alt="img" />
             </figure>
-          </details>
+            <span>gowtham</span>
+          </div>
+          <!-- rest of the data show it from sideBarData -->
         </section>
+        <footer class="aside-foot">
+          <div class="views">
+            <span>1 spoker 7 viewers</span>
+          </div>
+          <div class="settings">
+            <i class="fa-solid fa-thumbtack"></i>
+            <i class="fa-solid fa-gear"></i>
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          </div>
+        </footer>
       </aside>
+      <!-- groupchart message -->
+      <section class="msg-container">
+        <div class="msg-pannel">
+          <div class="chat">
+            <img src="/assets/Gowtham image.jpg" alt="img" />
+            <div class="name-date-msg">
+              <div class="name-date">
+                <span>gowtham</span>
+
+                <div class="date">6-7 12:53</div>
+              </div>
+              <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam beatae voluptate voluptatum veritatis, optio laborum et
+                at, repellat, nisi excepturi ipsa quas maiores! Quae corrupti
+                voluptatibus eos aperiam suscipit laborum?
+              </div>
+            </div>
+          </div>
+          <!-- rest of the data show it here -->
+        </div>
+        <div class="input-field">
+          <input type="text" placeholder="Type a message..." />
+          <div class="input-icon-group">
+            <i class="fa-regular fa-face-smile"></i>
+            <i class="fa-solid fa-upload"></i>
+            <i class="fa-regular fa-paper-plane"></i>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- script file linked -->
